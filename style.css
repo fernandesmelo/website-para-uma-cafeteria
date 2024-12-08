@@ -36,7 +36,8 @@
     letter-spacing: 2px;
 }
 
-.container-parallax1 {
+.container-parallax1,
+.container-parallax2 {
     position: relative;
     background-position: center;
     background-size: cover;
@@ -53,6 +54,7 @@
     top: 45%;
     right: 0;
     left: 0;
+
     color: #fff;
     text-align: center;
     font-weight: 400;
@@ -75,5 +77,30 @@
     letter-spacing: 2px;
     font-family:  "Oswald", sans-serif;
     color: #c4a47c;
+}
+
+.container-parallax2 {
+    background-image: url(./assets/parallax-imagem2.jpg);
+    height: 50vh;
+}
+
+.container-parallax2 h3 {
+    width: 500px;
+    padding: 10px;
+
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Fraunces", sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #604829;
+    color: #fff;
 }
 
