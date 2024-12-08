@@ -37,7 +37,8 @@
 }
 
 .container-parallax1,
-.container-parallax2 {
+.container-parallax2,
+.container-parallax3 {
     position: relative;
     background-position: center;
     background-size: cover;
@@ -84,7 +85,8 @@
     height: 50vh;
 }
 
-.container-parallax2 h3 {
+.container-parallax2 h3,
+.container-parallax3 h3 {
     width: 500px;
     padding: 10px;
 
@@ -102,5 +104,10 @@
     letter-spacing: 2px;
     background-color: #604829;
     color: #fff;
+}
+
+.container-parallax3 {
+    background-image: url(./assets/parallax-imagem3.jpg);
+    height: 50vh;
 }
 
