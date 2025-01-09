@@ -2,9 +2,9 @@
 
 Desenvolvi este projeto como parte da Missão 08 da carreira Front-end I no curso de Programador Full Stack na DevMedia. A missão abordou os tópicos "CSS: Position fixed" e "CSS: Position relative e absolute".  
 
-O projeto consiste em um site para um [Cafetaria](https://fernandesmelo.github.io/pet-boutique/), aplicando os conceitos aprendidos para criar um design funcional e atrativo.
+O projeto consiste em um site para um [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/), aplicando os conceitos aprendidos para criar um design funcional e atrativo.
 
-[screen-capture (1).webm](https://github.com/user-attachments/assets/e65882ee-ae6c-4736-b062-41bd23eb2053)
+[screen-capture.webm](https://github.com/user-attachments/assets/25289819-4f94-451d-9f7d-4200d47369ee)
 
 ## ⚙️ Executando os Testes
 Próximos passos...
