@@ -6,9 +6,6 @@ O projeto consiste em um site para um [Cafetaria](https://fernandesmelo.github.i
 
 [screen-capture.webm](https://github.com/user-attachments/assets/25289819-4f94-451d-9f7d-4200d47369ee)
 
-## ⚙️ Executando os Testes
-Próximos passos...
-
 ## 🛠️ Construído com
 
 <div style="display: inline-block"><br/>
@@ -86,3 +83,6 @@ Certifique-se de ter as seguintes ferramentas instaladas no seu computador:
 ---
 
 Agora você está pronto para explorar e personalizar este projeto! 🎉
+
+## ⚙️ Executando os Testes
+Próximos passos...
