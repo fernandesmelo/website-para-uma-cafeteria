@@ -259,3 +259,83 @@
     background-color: #c4a47c;
     border-radius: 4px;
 }
+
+@media (max-width: 768px) {
+    .container-topo {
+        height: 15vh;
+    }
+
+    .container-topo img {
+        width: 40px;
+        left: 10%;
+    }
+
+    .container-topo div {
+        top: 10px;
+        right: 10%;
+    }
+
+    .container-topo div a {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .container-parallax1 h1 {
+        font-size: 50px;
+    }
+
+    .container-texto {
+        padding: 40px 20px;
+        font-size: 14px;
+    }
+
+    .container-texto h2 {
+        font-size: 20px;
+    }
+
+    .container-parallax2 h3,
+    .container-parallax3 h3 {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .container-parallax4 h2 {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .container-parallax4 iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .contatos {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .container-parallax5 h2 {
+        font-size: 20px;
+    }
+
+    .lista-horarios {
+        width: 90%;
+        bottom: 10%;
+    }
+
+    .lista-horarios li h3 {
+        font-size: 18px;
+    }
+
+    .container-rodape {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .container-rodape a {
+        width: 40px;
+        height: 40px;
+        bottom: 40px;
+        right: 20px;
+    }
+}
