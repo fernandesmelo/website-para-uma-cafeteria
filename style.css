@@ -327,6 +327,10 @@
         margin: auto;
     }
 
+    .container-parallax5 {
+        height: 70vh;
+    }
+
     .container-parallax5 h2 {
         font-size: 20px;
     }
