@@ -316,6 +316,11 @@
     .contatos {
         width: 90%;
         font-size: 14px;
+        position: absolute;
+        top: 60%;
+        right: 0;
+        left: 0;
+        margin: auto;
     }
 
     .container-parallax5 h2 {
