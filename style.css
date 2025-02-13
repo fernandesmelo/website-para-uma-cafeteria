@@ -346,6 +346,10 @@
         font-size: 18px;
     }
 
+    .lista-horarios li div {
+        width: 50%;
+    }
+
     .container-rodape {
         padding: 10px 0;
         font-size: 14px;
