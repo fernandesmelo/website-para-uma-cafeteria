@@ -262,12 +262,16 @@
 
 @media (max-width: 768px) {
     .container-topo {
-        height: 15vh;
+        height: 5vh;
+        
     }
 
     .container-topo img {
         width: 40px;
         left: 10%;
+        position: relative;
+        top: 3px;
+        
     }
 
     .container-topo div {
