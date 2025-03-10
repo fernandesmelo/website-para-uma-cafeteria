@@ -164,6 +164,11 @@
     margin-top: 50%;
 }
 
+.contatos a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .container-parallax5 {
     height: 120vh;
     background-image: url(../assets/cafeteria.jpg);
