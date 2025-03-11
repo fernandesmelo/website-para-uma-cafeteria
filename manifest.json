@@ -1,7 +1,7 @@
 {
   "name": "Manhattan - Coffee House",
   "short_name": "Manhattan",
-  "description": "O café não é uma simples bebida que foi preparada por alguém. O café é momento e nós mostraremos isso.",
+  "description": "Site de uma cafeteria.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
