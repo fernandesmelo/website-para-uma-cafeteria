@@ -1,0 +1,21 @@
+{
+  "name": "Manhattan - Coffee House",
+  "short_name": "Manhattan",
+  "description": "O café não é uma simples bebida que foi preparada por alguém. O café é momento e nós mostraremos isso.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#604829",
+  "icons": [
+    {
+      "src": "./assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
