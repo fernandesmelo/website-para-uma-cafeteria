@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-.menu-hamburguer {
-    display: none; 
-}
-
-.navbar-links {
-    display: flex; 
-}
-
 .container-topo {
     position: fixed;
     z-index: 1;
