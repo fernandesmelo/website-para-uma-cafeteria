@@ -18,9 +18,7 @@
     }
 
     .container-topo div a {
-        font-size: 14px;
-        margin-right: 10px;
-        text-align: center;
+        display: none;
     }
 
     .container-parallax1 h1 {
