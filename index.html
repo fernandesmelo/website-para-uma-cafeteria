@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/style-mobile.css">
     <link rel="manifest" href="./manifest.json">
     <title>Manhattan - Coffee House</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -139,7 +140,7 @@
         <P>Desenvolvido por <span>Laércio Fernandes</span></P>
         <a href="#banner"></a>
     </div>
-    <script src="script.js">
+    <script>
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', function() {
             navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
