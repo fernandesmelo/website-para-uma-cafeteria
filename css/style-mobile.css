@@ -44,6 +44,10 @@
         
     }
 
+    .open {
+        display: block;
+    }
+
     .container-parallax1 h1 {
         font-size: 50px;
     }
