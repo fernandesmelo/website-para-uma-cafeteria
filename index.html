@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="./css/style-mobile.css">
     <link rel="manifest" href="./manifest.json">
     <title>Manhattan - Coffee House</title>
-    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -29,7 +28,7 @@
             </div>
         </nav>
         <div class="menu-mobile">
-            <ul class="">
+            <ul>
                 <li class="nav-item"><a class="nav-link" href="#informacoes">INFORMAÇÕES</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contatos">CONTATOS</a></li>
                 <li class="nav-item"><a class="nav-link" href="#horarios">HORÁRIOS</a></li>
@@ -149,6 +148,15 @@
               console.log('ServiceWorker registration failed: ', err);
             });
           });
+        }
+
+        function menuMobile() {
+            let menuHamburguer = document.querySelector('.menu-mobile');
+            if (menuHamburguer.classList.contains('open')) {
+                menuHamburguer.classList.remove('open');
+            } else {
+                menuHamburguer.classList.add('open');
+            }   
         }
     </script>
 </body>
