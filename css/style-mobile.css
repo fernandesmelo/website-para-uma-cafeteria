@@ -23,6 +23,7 @@
 
     .icon-menu-mobile {
         display: block;
+        top: 10px;
     }
 
     .icon-menu-mobile button {
