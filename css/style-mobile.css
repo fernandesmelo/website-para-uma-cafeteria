@@ -31,14 +31,14 @@
         border-color: transparent;
     }
 
-    .mobile-menu ul {
+    .menu-mobile ul {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
     }
 
-    .mobile-menu .nav-item {
+    .menu-mobile .nav-item {
         display: block;
         padding: 1.2rem;
         
