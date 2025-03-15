@@ -21,6 +21,15 @@
         display: none;
     }
 
+    .icon-menu-mobile {
+        display: block;
+    }
+
+    .icon-menu-mobile button {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
     .container-parallax1 h1 {
         font-size: 50px;
     }
