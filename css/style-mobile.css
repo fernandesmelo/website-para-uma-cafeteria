@@ -31,6 +31,13 @@
         border-color: transparent;
     }
 
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
     .container-parallax1 h1 {
         font-size: 50px;
     }
