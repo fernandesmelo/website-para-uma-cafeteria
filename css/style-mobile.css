@@ -31,6 +31,10 @@
         border-color: transparent;
     }
 
+    .container-topo div ul li {
+        display: none;
+    }
+
     .menu-mobile ul {
         display: flex;
         flex-direction: column;
