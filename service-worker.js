@@ -1,10 +1,9 @@
-const CACHE_NAME = 'ghibli-cache-v2';
+const CACHE_NAME = 'ghibli-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
   './css/style.css',
   './css/mobile.css',
-  '/script.js',
   '/manifest.json',
   './assets/logo.ico',
   './assets/logo.png',
@@ -38,30 +37,9 @@ self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request)
       .then(response => {
-        if (response) {
-          return response;
-        }
-
-        var fetchRequest = event.request.clone();
-
-        return fetch(fetchRequest).then(
-          function(response) {
-            if(!response || response.status !== 200 || response.type !== 'basic') {
-              return response;
-            }
-
-            var responseToCache = response.clone();
-
-            caches.open(CACHE_NAME)
-              .then(function(cache) {
-                cache.put(event.request, responseToCache);
-              });
-
-            return response;
-          }
-        );
+        return response || fetch(event.request);
       })
-    );
+  );
 });
 
 // Atualizando o cache quando o Service Worker é ativado
