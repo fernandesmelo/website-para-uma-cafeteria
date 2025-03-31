@@ -1,7 +1,6 @@
 @media (max-width: 768px) {
     .container-topo {
         height: 8vh;
-        
     }
 
     .container-topo img {
@@ -9,7 +8,6 @@
         left: 10%;
         position: relative;
         top: 10px;
-        
     }
 
     .container-topo div {
@@ -35,6 +33,14 @@
         display: none;
     }
 
+    .menu-mobile {
+        display: none; /* Esconde o menu inicialmente */
+    }
+
+    .menu-mobile.open {
+        display: block; /* Mostra o menu quando a classe 'open' é adicionada */
+    }
+
     .menu-mobile ul {
         display: flex;
         flex-direction: column;
@@ -45,11 +51,6 @@
     .menu-mobile .nav-item {
         display: block;
         padding: 1.2rem;
-        
-    }
-
-    .open {
-        display: block;
     }
 
     .container-parallax1 h1 {
