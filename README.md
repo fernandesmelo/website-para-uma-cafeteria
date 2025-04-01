@@ -4,7 +4,7 @@ Desenvolvi este projeto como parte da Missão 08 da carreira Front-end I no curs
 
 O projeto consiste em um site para um [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/), aplicando os conceitos aprendidos para criar um design funcional e atrativo.
 
-Aproveitei este projeto e adicionei novas funcionalidades com base em atividades propostas pelo professor da disciplina de Coding: Mobile da minha graduação em ADS. Também deixei o projeto responsivo para dispositivos móveis e o transformei em um PWA (Progressive Web App).  
+Aproveitei este projeto e adicionei novas funcionalidades com base em atividades propostas pelo professor da disciplina de Coding: Mobile da minha graduação em Análise e Desenvolvimento de Sistemas. Também deixei o projeto responsivo para dispositivos móveis e o transformei em um PWA (Progressive Web App).  
 
 Para quem não sabe, um PWA é um aplicativo web que pode ser instalado no celular e utilizado como um app nativo, oferecendo uma experiência mais fluida e, em alguns casos, funcionando até mesmo sem conexão com a internet.
 
