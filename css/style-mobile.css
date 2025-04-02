@@ -19,39 +19,10 @@
         display: none;
     }
 
-    .icon-menu-mobile {
-        display: block;
-        top: 10px;
-    }
-
-    .icon-menu-mobile button {
-        background-color: transparent;
-        border-color: transparent;
-    }
-
     .container-topo div ul li {
         display: none;
     }
 
-    .menu-mobile {
-        display: none; /* Esconde o menu inicialmente */
-    }
-
-    .menu-mobile.open {
-        display: block; /* Mostra o menu quando a classe 'open' é adicionada */
-    }
-
-    .menu-mobile ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    .menu-mobile .nav-item {
-        display: block;
-        padding: 1.2rem;
-    }
 
     .container-parallax1 h1 {
         font-size: 50px;
