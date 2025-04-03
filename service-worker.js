@@ -7,7 +7,6 @@ const urlsToCache = [
   '/manifest.json',
   './assets/logo.ico',
   './assets/logo.png',
-  './assets/menu-mobile.png',
   './assets/parallax/imagem1.png',
   './assets/parallax/imagem2.jpg',
   './assets/parallax/imagem3.jpg',
