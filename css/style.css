@@ -4,28 +4,38 @@
     box-sizing: border-box;
 }
 
-.container-topo {
+.header {
     position: fixed;
     z-index: 1;
     width: 100%;
-    height: 10vh;
     background-color: #604829;
+    padding-inline: 16px;
 }
 
-.container-topo img {
+.nav {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
     width: 60px;
     position: relative;
     top: 0;
     left: 15%;
 }
 
-.container-topo div {
-    position: absolute;
-    top: 15px;
-    right: 15%;
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
 }
 
-.container-topo div a {
+.nav-list a {
     margin-right: 20px;
     font-size: 18px;
     font-family: "Oswald", sans-serif;
@@ -33,7 +43,27 @@
     text-decoration: none;
     color: #c4a47c;
     text-shadow: 3px 5px 2px #000000;
-    letter-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.hamburger {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+
+.hamburger::after,
+.hamburger::before {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
 }
 
 .container-parallax1,
@@ -78,7 +108,7 @@
     margin-bottom: 30px;
     font-size: 24px;
     letter-spacing: 2px;
-    font-family:  "Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
     color: #c4a47c;
 }
 
@@ -186,7 +216,7 @@
     color: white;
 }
 
-.lista-horarios { 
+.lista-horarios {
     max-width: 768px;
     position: absolute;
     margin: 0 auto;
@@ -197,16 +227,16 @@
     list-style: none;
 }
 
-.lista-horarios li { 
+.lista-horarios li {
     position: relative;
 }
 
-.lista-horarios li h3 { 
+.lista-horarios li h3 {
     margin-bottom: 20px;
     color: #fff;
 }
 
-.lista-horarios li div { 
+.lista-horarios li div {
     width: 70%;
     height: 1px;
     position: absolute;
@@ -218,7 +248,7 @@
 }
 
 .lista-horarios li p,
-.texto-marrom { 
+.texto-marrom {
     position: absolute;
     top: 0;
     right: 0;
@@ -264,5 +294,3 @@
     background-color: #c4a47c;
     border-radius: 4px;
 }
-
-

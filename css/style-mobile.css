@@ -1,28 +1,70 @@
 @media (max-width: 768px) {
-    .container-topo {
-        height: 8vh;
+    .hamburger {
+        display: block;
+        z-index: 1;
     }
 
-    .container-topo img {
-        width: 40px;
-        left: 10%;
-        position: relative;
-        top: 10px;
+    .nav-list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #604829;
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+
+        pointer-events: none;
     }
 
-    .container-topo div {
-        top: 18px;
-        right: 10%;
+    .nav-list a {
+        font-size: 24px;
+        opacity: 0;
     }
 
-    .container-topo div a {
-        display: none;
+    .nav-list li:nth-child(1) a {
+        transition: 0.5s 0.2s;
     }
 
-    .container-topo div ul li {
-        display: none;
+    .nav-list li:nth-child(2) a {
+        transition: 0.5s 0.4s;
     }
 
+    .nav-list li:nth-child(3) a {
+        transition: 0.5s 0.6s;
+    }
+
+    /* Estilos ativos */
+
+    .nav.active .nav-list {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    .nav.active .nav-list a {
+        opacity: 1;
+    }
+
+    .nav.active .hamburger {
+        position: fixed;
+        top: 26px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+
+    .nav.active .hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    .nav.active .hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
 
     .container-parallax1 h1 {
         font-size: 50px;
@@ -51,7 +93,7 @@
     .container-parallax4 {
         height: 100vh;
     }
-    
+
 
     .container-parallax4 iframe {
         width: 90%;

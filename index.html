@@ -11,21 +11,21 @@
     />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/style-mobile.css">
-    <script src="script.js"></script>
     <link rel="manifest" href="./manifest.json">
     <title>Manhattan - Coffee House</title>
 </head>
 <body>
-    <header>
-        <nav class="container-topo">
-            <img src="./assets/logo.ico" alt="Logo da cafeteria"/>
-            <div>
-                <a href="#informacoes">INFORMAÇÕES</a>
-                <a href="#contatos">CONTATOS</a>
-                <a href="#horarios">HORÁRIOS</a>
-            </div>
+    <header class="header">
+        <nav class="nav">
+            <a href="./index.html"><img src="./assets/logo.png" alt="Logo da cafeteria" class="logo"></a>
+          <button class="hamburger"></button>
+          <ul class="nav-list">
+            <li><a href="#informacoes">INFORMAÇÕES</a></li>
+            <li><a href="#contatos">CONTATOS</a></li>
+            <li><a href="#horarios">HORÁRIOS</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
     <div id="banner" class="container-parallax1">
         <h1>MANHATTAN - COFFEE HOUSE</h1>
     </div>
@@ -140,5 +140,10 @@
             });
           });
         }
+
+        const hamburger = document.querySelector(".hamburger");
+        const nav = document.querySelector(".nav");
+
+        hamburger.addEventListener("click", () => nav.classList.toggle("active"));
     </script>
 </body>
