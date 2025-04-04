@@ -27,67 +27,49 @@ Para quem não sabe, um PWA é um aplicativo web que pode ser instalado no celul
 
 * **Laércio Fernandes** - [LinkedIn](https://www.linkedin.com/in/laercio-fernandes/)
 
-## 🚀 Guia de Como Baixar e Rodar o Projeto
+## 🚀 Guia de Como Acessar e Baixar o Projeto como PWA
 
-Este guia fornece instruções detalhadas para baixar e visualizar este projeto simples feito com HTML e CSS.
+Este guia fornece instruções detalhadas para acessar o projeto online e instalá-lo como um Progressive Web App (PWA) no seu dispositivo.
 
 ---
 
 ### 📋 Pré-requisitos
 
-Certifique-se de ter as seguintes ferramentas instaladas no seu computador:
+Certifique-se de ter um navegador compatível com PWA instalado no seu dispositivo:
 
-#### 1. Navegador Web
-- Recomendado: [Google Chrome](https://www.google.com/chrome/)  
-  Baixe e instale o navegador para visualizar o projeto.
-
-#### 2. Editor de Código
-- Recomendado: [Visual Studio Code (VSCode)](https://code.visualstudio.com/download)  
-  **Configuração**:
-  - Instale a extensão **Live Server** (para visualizar o projeto localmente).
+#### 1. Navegador Web Compatível
+* **Recomendado:** Google Chrome 
 
 ---
 
-### 📦 Passo a Passo para Baixar o Projeto
+### 📦 Passo a Passo para Acessar o Projeto
 
-#### 1. Acesse o Repositório no GitHub
-- Abra o link do repositório no seu navegador: `https://github.com/fernandesmelo/imobiliaria-santos.git`.
+#### 1. Acesse o Link do Projeto
+- Abra o seguinte link no seu navegador: [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/)
 
-#### 2. Faça o Download do Projeto
-- Clique no botão verde **Code**.
-- Selecione **Download ZIP** para baixar os arquivos do projeto compactados.
-
-#### 3. Extraia os Arquivos
-- Após o download, extraia os arquivos do arquivo ZIP para uma pasta no seu computador.
+#### 2. Explore o Projeto
+- Navegue pelo site e teste suas funcionalidades diretamente no navegador.
 
 ---
 
-### 🔧 Configuração do Ambiente
+### 📲 Como Baixar e Instalar como PWA
 
-#### 1. Abra o Projeto no VSCode
-- Inicie o VSCode.
-- Clique em **File > Open Folder** e selecione a pasta onde você extraiu os arquivos do projeto.
+#### 1. No Google Chrome (Desktop)
+- Acesse [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/) no Chrome.
+- No canto superior direito, clique no ícone de um computador com uma seta para baixo.
+- Confirme a instalação e o app será adicionado ao seu desktop.
 
-#### 2. Instale a Extensão Live Server (Opcional)
-- No VSCode, clique no ícone de extensões (no lado esquerdo).
-- Pesquise por **Live Server** e clique em **Install**.
-
----
-
-### ▶️ Executando o Projeto
-
-#### Método 1: Visualizando Diretamente no Navegador
-1. Navegue até a pasta onde os arquivos do projeto estão localizados.
-2. Clique duas vezes no arquivo `index.html` para abri-lo no navegador.
-
-#### Método 2: Usando o Live Server (Recomendado)
-1. No VSCode, clique com o botão direito no arquivo `index.html`.
-2. Selecione **Open with Live Server**.
-3. O projeto será aberto automaticamente no seu navegador padrão.
+#### 1. No Google Chrome (Android)
+- Acesse [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/) no Chrome.
+- No canto superior direito, clique no ícone de três pontos (⋮).
+- Selecione “Adicionar à tela inicial”.
+- Confirme a instalação e o app será adicionado ao seu dispositivo.
 
 ---
 
-Agora você está pronto para explorar e personalizar este projeto! 🎉
+### 🎉 Pronto para Usar!
+
+Agora você pode acessar o projeto como um aplicativo independente, sem precisar abrir o navegador. Aproveite a experiência completa do PWA!
 
 ## ⚙️ Executando os Testes
 Próximos passos...
