@@ -1,6 +1,5 @@
 const CACHE_NAME = 'ghibli-cache-v1';
 const urlsToCache = [
-  '/',
   '/index.html',
   './css/style.css',
   './css/style-mobile.css',
