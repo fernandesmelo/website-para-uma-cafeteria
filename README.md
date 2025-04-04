@@ -2,7 +2,7 @@
 
 Desenvolvi este projeto como parte da Missão 08 da carreira Front-end I no curso de Programador Full Stack na DevMedia. A missão abordou os tópicos "CSS: Position fixed" e "CSS: Position relative e absolute".  
 
-O projeto consiste em um site para um [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/), aplicando os conceitos aprendidos para criar um design funcional e atrativo.
+O projeto consiste em um site para um [Cafetaria](https://manhattancoffee.netlify.app/), aplicando os conceitos aprendidos para criar um design funcional e atrativo.
 
 Aproveitei este projeto e adicionei novas funcionalidades com base em atividades propostas pelo professor da disciplina de Coding: Mobile da minha graduação em Análise e Desenvolvimento de Sistemas. Também deixei o projeto responsivo para dispositivos móveis e o transformei em um PWA (Progressive Web App).  
 
@@ -45,7 +45,7 @@ Certifique-se de ter um navegador compatível com PWA instalado no seu dispositi
 ### 📦 Passo a Passo para Acessar o Projeto
 
 #### 1. Acesse o Link do Projeto
-- Abra o seguinte link no seu navegador: [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/)
+- Abra o seguinte link no seu navegador: [Cafetaria](https://manhattancoffee.netlify.app/)
 
 #### 2. Explore o Projeto
 - Navegue pelo site e teste suas funcionalidades diretamente no navegador.
@@ -55,12 +55,12 @@ Certifique-se de ter um navegador compatível com PWA instalado no seu dispositi
 ### 📲 Como Baixar e Instalar como PWA
 
 #### 1. No Google Chrome (Desktop)
-- Acesse [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/) no Chrome.
+- Acesse [Cafetaria](https://manhattancoffee.netlify.app/) no Chrome.
 - No canto superior direito, clique no ícone de um computador com uma seta para baixo.
 - Confirme a instalação e o app será adicionado ao seu desktop.
 
 #### 1. No Google Chrome (Android)
-- Acesse [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/) no Chrome.
+- Acesse [Cafetaria](https://manhattancoffee.netlify.app/) no Chrome.
 - No canto superior direito, clique no ícone de três pontos (⋮).
 - Selecione “Adicionar à tela inicial”.
 - Confirme a instalação e o app será adicionado ao seu dispositivo.
