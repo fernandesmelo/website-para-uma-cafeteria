@@ -38,8 +38,7 @@ Este guia fornece instruções detalhadas para acessar o projeto online e instal
 Certifique-se de ter um navegador compatível com PWA instalado no seu dispositivo:
 
 #### 1. Navegador Web Compatível
-* **Recomendado:** Google Chrome ou Microsoft Edge
-* Outros navegadores compatíveis: Firefox, Safari (iOS), Brave
+* **Recomendado:** Google Chrome 
 
 ---
 
@@ -55,30 +54,22 @@ Certifique-se de ter um navegador compatível com PWA instalado no seu dispositi
 
 ### 📲 Como Baixar e Instalar como PWA
 
-#### 1. No Google Chrome (Android e Desktop)
-- Inicie o VSCode.
-- Clique em **File > Open Folder** e selecione a pasta onde você extraiu os arquivos do projeto.
+#### 1. No Google Chrome (Desktop)
+- Acesse [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/) no Chrome.
+- No canto superior direito, clique no ícone de um computador com uma seta para baixo.
+- Confirme a instalação e o app será adicionado ao seu desktop.
 
-#### 2. Instale a Extensão Live Server (Opcional)
-- No VSCode, clique no ícone de extensões (no lado esquerdo).
-- Pesquise por **Live Server** e clique em **Install**.
-
----
-
-### ▶️ Executando o Projeto
-
-#### Método 1: Visualizando Diretamente no Navegador
-1. Navegue até a pasta onde os arquivos do projeto estão localizados.
-2. Clique duas vezes no arquivo `index.html` para abri-lo no navegador.
-
-#### Método 2: Usando o Live Server (Recomendado)
-1. No VSCode, clique com o botão direito no arquivo `index.html`.
-2. Selecione **Open with Live Server**.
-3. O projeto será aberto automaticamente no seu navegador padrão.
+#### 1. No Google Chrome (Android)
+- Acesse [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/) no Chrome.
+- No canto superior direito, clique no ícone de três pontos (⋮).
+- Selecione “Adicionar à tela inicial”.
+- Confirme a instalação e o app será adicionado ao seu dispositivo.
 
 ---
 
-Agora você está pronto para explorar e personalizar este projeto! 🎉
+### 🎉 Pronto para Usar!
+
+Agora você pode acessar o projeto como um aplicativo independente, sem precisar abrir o navegador. Aproveite a experiência completa do PWA!
 
 ## ⚙️ Executando os Testes
 Próximos passos...
