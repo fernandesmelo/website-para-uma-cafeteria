@@ -27,44 +27,35 @@ Para quem não sabe, um PWA é um aplicativo web que pode ser instalado no celul
 
 * **Laércio Fernandes** - [LinkedIn](https://www.linkedin.com/in/laercio-fernandes/)
 
-## 🚀 Guia de Como Baixar e Rodar o Projeto
+## 🚀 Guia de Como Acessar e Baixar o Projeto como PWA
 
-Este guia fornece instruções detalhadas para baixar e visualizar este projeto simples feito com HTML e CSS.
+Este guia fornece instruções detalhadas para acessar o projeto online e instalá-lo como um Progressive Web App (PWA) no seu dispositivo.
 
 ---
 
 ### 📋 Pré-requisitos
 
-Certifique-se de ter as seguintes ferramentas instaladas no seu computador:
+Certifique-se de ter um navegador compatível com PWA instalado no seu dispositivo:
 
-#### 1. Navegador Web
-- Recomendado: [Google Chrome](https://www.google.com/chrome/)  
-  Baixe e instale o navegador para visualizar o projeto.
-
-#### 2. Editor de Código
-- Recomendado: [Visual Studio Code (VSCode)](https://code.visualstudio.com/download)  
-  **Configuração**:
-  - Instale a extensão **Live Server** (para visualizar o projeto localmente).
+#### 1. Navegador Web Compatível
+* **Recomendado:** Google Chrome ou Microsoft Edge
+* Outros navegadores compatíveis: Firefox, Safari (iOS), Brave
 
 ---
 
-### 📦 Passo a Passo para Baixar o Projeto
+### 📦 Passo a Passo para Acessar o Projeto
 
-#### 1. Acesse o Repositório no GitHub
-- Abra o link do repositório no seu navegador: `https://github.com/fernandesmelo/imobiliaria-santos.git`.
+#### 1. Acesse o Link do Projeto
+- Abra o seguinte link no seu navegador: [Cafetaria](https://fernandesmelo.github.io/website-para-uma-cafeteria/)
 
-#### 2. Faça o Download do Projeto
-- Clique no botão verde **Code**.
-- Selecione **Download ZIP** para baixar os arquivos do projeto compactados.
-
-#### 3. Extraia os Arquivos
-- Após o download, extraia os arquivos do arquivo ZIP para uma pasta no seu computador.
+#### 2. Explore o Projeto
+- Navegue pelo site e teste suas funcionalidades diretamente no navegador.
 
 ---
 
-### 🔧 Configuração do Ambiente
+### 📲 Como Baixar e Instalar como PWA
 
-#### 1. Abra o Projeto no VSCode
+#### 1. No Google Chrome (Android e Desktop)
 - Inicie o VSCode.
 - Clique em **File > Open Folder** e selecione a pasta onde você extraiu os arquivos do projeto.
 
